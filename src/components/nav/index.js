@@ -1,6 +1,13 @@
 import React from 'react';
 import Logo from '../../img/logo_dark.png';
-import { LogoImage, Container, BoxNav, BoxLogo, BoxBtn } from './styles';
+import {
+  LogoImage,
+  Container,
+  BoxNav,
+  BoxLogo,
+  BoxBtn,
+  BtnNav,
+} from './styles';
 
 function header() {
   return (
@@ -13,7 +20,7 @@ function header() {
                 <LogoImage src={Logo} alt="Logo" />
               </BoxLogo>
               <BoxBtn>
-                <button type="button">Login</button>
+                <BtnNav type="button">Login</BtnNav>
               </BoxBtn>
             </BoxNav>
           </div>
