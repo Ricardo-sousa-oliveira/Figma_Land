@@ -9,25 +9,23 @@ import {
   BtnNav,
 } from './styles';
 
-function header() {
+function nav() {
   return (
     <>
       <section>
         <Container>
-          <div className="row">
-            <BoxNav>
-              <BoxLogo>
-                <LogoImage src={Logo} alt="Logo" />
-              </BoxLogo>
-              <BoxBtn>
-                <BtnNav type="button">Login</BtnNav>
-              </BoxBtn>
-            </BoxNav>
-          </div>
+          <BoxNav>
+            <BoxLogo>
+              <LogoImage src={Logo} alt="Logo" />
+            </BoxLogo>
+            <BoxBtn>
+              <BtnNav type="button">Login</BtnNav>
+            </BoxBtn>
+          </BoxNav>
         </Container>
       </section>
     </>
   );
 }
 
-export default header;
+export default nav;
