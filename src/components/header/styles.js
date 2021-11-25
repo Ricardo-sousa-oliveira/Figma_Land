@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../tokens/screen';
 
 export const Container = styled.div`
   background: #000;
@@ -6,13 +7,30 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+  font-family: 'Roboto', sans-serif;
 `;
 
 export const Title = styled.h1`
+  margin-top: 60px;
+  margin-bottom: 60px;
   color: white;
-  width: 180px;
   text-align: center;
   font-size: 35px;
+  width: 190px;
+
+  @media ${device.mobileM} {
+    width: 200px;
+    font-size: 50px;
+  }
+
+  @media ${device.mobileM} {
+    width: 350px;
+  }
+
+  @media ${device.tablet} {
+    width: 500px;
+  }
 `;
 
 export const Text = styled.p`
@@ -21,12 +39,29 @@ export const Text = styled.p`
   width: 240px;
   text-align: center;
   margin-bottom: 30px;
+  @media ${device.mobileM} {
+    width: 200px;
+  }
+
+  @media ${device.mobileM} {
+    width: 350px;
+  }
+
+  @media ${device.tablet} {
+    width: 500px;
+  }
 `;
 
 export const BoxBtn = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
+
+  @media ${device.tablet} {
+    flex-direction: row;
+    align-items: baseline;
+    margin-right: 20px;
+  }
 `;
 
 export const BtnTryForFree = styled.a`
@@ -34,6 +69,10 @@ export const BtnTryForFree = styled.a`
   color: white;
   padding: 10px 20px 10px 20px;
   margin-bottom: 15px;
+
+  @media ${device.tablet} {
+    margin-right: 20px;
+  }
 `;
 
 export const BtnLearnMore = styled.a`
