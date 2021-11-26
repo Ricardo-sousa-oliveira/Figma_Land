@@ -11,21 +11,19 @@ export const Container = styled.div`
   font-family: 'Roboto', sans-serif;
 `;
 
-export const Title = styled.h1`
-  margin-top: 60px;
-  margin-bottom: 60px;
+export const Title = styled.h2`
   color: white;
-  text-align: center;
   font-size: 35px;
-  width: 190px;
+  width: 290px;
+  text-align: center;
+  margin-bottom: 30px;
 
   @media ${device.mobileM} {
-    width: 200px;
-    font-size: 40px;
+    width: 180px;
   }
 
   @media ${device.mobileM} {
-    width: 350px;
+    width: 250px;
   }
 
   @media ${device.tablet} {
@@ -36,8 +34,8 @@ export const Title = styled.h1`
 export const Text = styled.p`
   color: white;
   font-size: 15px;
-  width: 240px;
   text-align: center;
+  width: 290px;
   margin-bottom: 30px;
 
   @media ${device.mobileS} {
@@ -53,38 +51,37 @@ export const Text = styled.p`
   }
 `;
 
-export const BoxBtn = styled.div`
+export const Box = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  text-align: center;
 
   @media ${device.tablet} {
     flex-direction: row;
-    align-items: baseline;
-    margin-right: 20px;
   }
-`;
-
-export const BtnTryForFree = styled.a`
-  background: #4452fe;
-  color: white;
-  padding: 10px 20px 10px 20px;
-  margin-bottom: 15px;
-
-  @media ${device.tablet} {
-    margin-right: 20px;
-  }
-`;
-
-export const BtnLearnMore = styled.a`
-  color: white;
-  border: 1px solid white;
-  font-size: 15px;
-  padding: 10px 20px 10px 20px;
-  margin-bottom: 40px;
 `;
 
 export const Img = styled.img`
-  width: 100%;
-  margin-bottom: 100px;
+  width: 150px;
+
+  @media ${device.mobileS} {
+    width: 200px;
+  }
+
+  @media ${device.mobileM} {
+    width: 300px;
+  }
+
+  @media ${device.tablet} {
+    width: 400px;
+  }
+
+  @media ${device.laptop} {
+    width: 500px;
+  }
+`;
+
+export const TextIformation = styled.p`
+  color: white;
 `;

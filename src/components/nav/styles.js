@@ -9,7 +9,7 @@ export const LogoImage = styled.img`
 `;
 
 export const Container = styled.div`
-  background: #000;
+  background: #181818;
 `;
 
 export const BoxNav = styled.div`
@@ -33,7 +33,7 @@ export const BoxBtn = styled.div`
 `;
 
 export const BtnNav = styled.button`
-  background: #000;
+  background: #181818;
   color: white;
   width: 90px;
   height: 35px;
