@@ -39,6 +39,7 @@ export const Text = styled.p`
   width: 240px;
   text-align: center;
   margin-bottom: 30px;
+  line-height: 25px;
 
   @media ${device.mobileS} {
     width: 200px;

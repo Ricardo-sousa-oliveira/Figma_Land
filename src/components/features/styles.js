@@ -37,6 +37,7 @@ export const Text = styled.p`
   text-align: center;
   width: 290px;
   margin-bottom: 30px;
+  line-height: 25px;
 
   @media ${device.mobileS} {
     width: 200px;
@@ -48,6 +49,7 @@ export const Text = styled.p`
 
   @media ${device.tablet} {
     width: 500px;
+    margin-bottom: 60px;
   }
 `;
 
@@ -64,24 +66,51 @@ export const Box = styled.div`
 
 export const Img = styled.img`
   width: 150px;
+  margin-bottom: 50px;
 
   @media ${device.mobileS} {
     width: 200px;
   }
 
   @media ${device.mobileM} {
-    width: 300px;
+    width: 280px;
   }
 
   @media ${device.tablet} {
-    width: 400px;
+    width: 600px;
   }
 
   @media ${device.laptop} {
-    width: 500px;
+    width: 600px;
   }
+`;
+
+export const BoxTitleInforation = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+`;
+
+export const TitleInforation = styled.h3`
+  color: white;
+  font-size: 20px;
+  width: 170px;
+`;
+
+export const IconFeatures = styled.img`
+  width: 25px;
+  padding-right: 10px;
 `;
 
 export const TextIformation = styled.p`
   color: white;
+  font-size: 13px;
+  text-align: left;
+  width: 180px;
+  margin-bottom: 35px;
+  line-height: 25px;
+
+  @media ${device.tablet} {
+    margin-bottom: 20px;
+  }
 `;
