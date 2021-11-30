@@ -8,13 +8,14 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
+  gap: 20px;
   justify-content: center;
 `;
 
 export const Title = styled.h2`
   color: white;
   font-size: 35px;
-  margin-bottom: 30px;
+  margin-top: 150px;
   text-align: center;
   width: 290px;
   @media ${device.mobileM} {
@@ -36,7 +37,7 @@ export const Text = styled.p`
   line-height: 25px;
   margin-bottom: 30px;
   text-align: center;
-  width: 290px;
+  width: 240px;
   @media ${device.mobileS} {
     width: 200px;
   }
@@ -51,61 +52,24 @@ export const Text = styled.p`
   }
 `;
 
-export const Box = styled.div`
-  align-items: center;
+export const Boximg = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 20px;
   @media ${device.tablet} {
+    display: flex;
     flex-direction: row;
   }
 `;
 
 export const Img = styled.img`
-  margin-bottom: 50px;
-  width: 150px;
-  @media ${device.mobileS} {
-    width: 200px;
-  }
-
-  @media ${device.mobileM} {
-    width: 280px;
-  }
-
-  @media ${device.tablet} {
-    width: 600px;
-  }
-
-  @media ${device.laptop} {
-    width: 600px;
-  }
-`;
-
-export const BoxTitleInforation = styled.div`
-  align-items: center;
-  display: flex;
-  margin-bottom: 10px;
-`;
-
-export const TitleInforation = styled.h3`
-  color: white;
-  font-size: 20px;
-  width: 170px;
-`;
-
-export const IconFeatures = styled.img`
-  padding-right: 10px;
-  width: 25px;
-`;
-
-export const TextIformation = styled.p`
-  color: white;
-  font-size: 14px;
-  line-height: 25px;
-  margin-bottom: 35px;
-  text-align: left;
+  border-radius: 10px;
   width: 180px;
-  @media ${device.tablet} {
-    margin-bottom: 20px;
-  }
+`;
+
+export const Btn = styled.a`
+  background: #181818;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px 10px 20px;
 `;

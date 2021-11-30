@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import { device } from '../../tokens/screen';
 
 export const Container = styled.div`
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+  align-items: center;
   background: #181818;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
   font-family: 'Roboto', sans-serif;
 `;
 
@@ -56,7 +56,6 @@ export const BoxCard = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
-
   @media ${device.tablet} {
     flex-direction: row;
     justify-content: space-around;
@@ -64,44 +63,43 @@ export const BoxCard = styled.div`
 `;
 
 export const Card = styled.div`
-  display: flex;
-  flex-direction: column;
   align-items: center;
   background: white;
-  width: 240px;
-  height: 400px;
   border-radius: 10px;
-
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 240px;
   @media ${device.mobileS} {
-    width: 300px;
     height: 500px;
+    width: 300px;
   }
 
   @media ${device.tablet} {
-    width: 350px;
     height: 500px;
+    width: 350px;
   }
 `;
 
 export const TitleCard = styled.h3`
   font-size: 20px;
-  text-align: center;
   margin-top: 40px;
+  text-align: center;
 `;
 
 export const TextCard = styled.h3`
   font-size: 16px;
-  text-align: center;
-  margin: 40px 0px;
-  width: 200px;
   line-height: 25px;
+  margin: 40px 0px;
+  text-align: center;
+  width: 200px;
 `;
 
 export const BtnCard = styled.a`
   background: #4452fe;
   color: white;
-  padding: 10px 20px 10px 20px;
   margin-bottom: 10px;
+  padding: 10px 20px 10px 20px;
 `;
 
 export const ImgCard = styled.img`

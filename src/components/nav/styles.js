@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import { device } from '../../tokens/screen';
 
 export const LogoImage = styled.img`
-  width: 135px;
   height: 50px;
   margin-left: 10px;
   margin-top: 10px;
+  width: 135px;
 `;
 
 export const Container = styled.div`
@@ -28,14 +28,14 @@ export const BoxLogo = styled.div`
 export const BoxBtn = styled.div`
   display: flex;
   margin-left: 60px;
-  margin-top: 15px;
   margin-right: 25px;
+  margin-top: 15px;
 `;
 
 export const BtnNav = styled.button`
   background: #181818;
-  color: white;
-  width: 90px;
-  height: 35px;
   border: 1px solid white;
+  color: white;
+  height: 35px;
+  width: 90px;
 `;
