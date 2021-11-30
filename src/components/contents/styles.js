@@ -6,7 +6,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
   font-family: 'Roboto', sans-serif;
 `;
@@ -14,9 +13,9 @@ export const Container = styled.div`
 export const Title = styled.h2`
   color: white;
   font-size: 35px;
-  width: 290px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-top: 200px;
+  margin-bottom: 20px;
 
   @media ${device.mobileM} {
     width: 180px;
@@ -35,7 +34,7 @@ export const Text = styled.p`
   color: white;
   font-size: 16px;
   text-align: center;
-  width: 290px;
+  width: 240px;
   margin-bottom: 30px;
   line-height: 25px;
 
@@ -44,7 +43,7 @@ export const Text = styled.p`
   }
 
   @media ${device.mobileM} {
-    width: 350px;
+    width: 300px;
   }
 
   @media ${device.tablet} {
@@ -53,64 +52,62 @@ export const Text = styled.p`
   }
 `;
 
-export const Box = styled.div`
+export const BoxCard = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  gap: 30px;
 
   @media ${device.tablet} {
     flex-direction: row;
+    justify-content: space-around;
   }
 `;
 
-export const Img = styled.img`
-  width: 150px;
-  margin-bottom: 50px;
+export const Card = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  width: 240px;
+  height: 400px;
+  border-radius: 10px;
 
   @media ${device.mobileS} {
-    width: 200px;
-  }
-
-  @media ${device.mobileM} {
-    width: 280px;
+    width: 300px;
+    height: 500px;
   }
 
   @media ${device.tablet} {
-    width: 600px;
-  }
-
-  @media ${device.laptop} {
-    width: 600px;
+    width: 350px;
+    height: 500px;
   }
 `;
 
-export const BoxTitleInforation = styled.div`
-  display: flex;
-  align-items: center;
+export const TitleCard = styled.h3`
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+`;
+
+export const TextCard = styled.h3`
+  font-size: 16px;
+  text-align: center;
+  margin: 40px 0px;
+  width: 200px;
+  line-height: 25px;
+`;
+
+export const BtnCard = styled.a`
+  background: #4452fe;
+  color: white;
+  padding: 10px 20px 10px 20px;
   margin-bottom: 10px;
 `;
 
-export const TitleInforation = styled.h3`
-  color: white;
-  font-size: 20px;
-  width: 170px;
-`;
+export const ImgCard = styled.img`
+  width: 200px;
 
-export const IconFeatures = styled.img`
-  width: 25px;
-  padding-right: 10px;
-`;
-
-export const TextIformation = styled.p`
-  color: white;
-  font-size: 14px;
-  text-align: left;
-  width: 180px;
-  margin-bottom: 35px;
-  line-height: 25px;
-
-  @media ${device.tablet} {
-    margin-bottom: 20px;
+  @media ${device.mobileS} {
+    width: 240px;
   }
 `;

@@ -35,7 +35,7 @@ export const Title = styled.h1`
 
 export const Text = styled.p`
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   width: 240px;
   text-align: center;
   margin-bottom: 30px;
