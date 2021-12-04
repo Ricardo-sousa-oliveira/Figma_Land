@@ -7,6 +7,7 @@ import Features from './components/features';
 import Contents from './components/contents';
 import Gallery from './components/gallery';
 import Partners from './components/partners';
+import Testimonials from './components/testimonials';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Contents />
     <Gallery />
     <Partners />
+    <Testimonials />
   </React.StrictMode>,
   document.getElementById('root'),
 );
