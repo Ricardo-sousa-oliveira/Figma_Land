@@ -7,6 +7,7 @@ import {
   BoxComments,
   Img,
   BoxProfile,
+  TitleProfile,
 } from './styles';
 import ComentWade from '../../img/coment_wade.png';
 import ComentPhilip from '../../img/coment_philip.png';
@@ -27,7 +28,7 @@ function testimonials() {
                 <Img src={ComentWade} alt="ComentWade" />
               </div>
               <div>
-                <h3>Wade Steward</h3>
+                <TitleProfile>Wade Steward</TitleProfile>
                 <a type="link">Designer</a>
               </div>
             </BoxProfile>
@@ -47,7 +48,7 @@ function testimonials() {
                 <Img src={ComentPhilip} alt="ComentPhilip" />
               </div>
               <div>
-                <h3>Wade Steward</h3>
+                <TitleProfile>Wade Steward</TitleProfile>
                 <a type="link">Designer</a>
               </div>
             </BoxProfile>
@@ -67,7 +68,7 @@ function testimonials() {
                 <Img src={ComentArthur} alt="ComentArthur" />
               </div>
               <div>
-                <h3>Wade Steward</h3>
+                <TitleProfile>Wade Steward</TitleProfile>
                 <a type="link">Designer</a>
               </div>
             </BoxProfile>
@@ -87,7 +88,7 @@ function testimonials() {
                 <Img src={ComentEgina} alt="ComentEgina" />
               </div>
               <div>
-                <h3>Wade Steward</h3>
+                <TitleProfile>Wade Steward</TitleProfile>
                 <a type="link">Designer</a>
               </div>
             </BoxProfile>

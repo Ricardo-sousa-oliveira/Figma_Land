@@ -8,7 +8,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  gap: 20px;
+  gap: 50px;
   justify-content: center;
 `;
 
@@ -42,16 +42,22 @@ export const Text = styled.p`
     margin-left: 25px;
     font-size: 16px;
   }
+
+  @media ${device.tablet} {
+    width: 300px;
+  }
 `;
 
 export const Box = styled.div`
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 400px;
+  flex: 2 2 200px;
   flex-direction: column;
   gap: 20px;
   @media ${device.tablet} {
     flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 
@@ -65,11 +71,20 @@ export const BoxComments = styled.div`
   @media ${device.mobileS} {
     width: 300px;
   }
+
+  @media ${device.tablet} {
+    width: 400px;
+  }
 `;
 
 export const Img = styled.img`
   width: 40px;
   margin: 0px 15px 0px 20px;
+`;
+
+export const TitleProfile = styled.h3`
+  font-size: 20px;
+  color: white;
 `;
 
 export const BoxProfile = styled.div`
