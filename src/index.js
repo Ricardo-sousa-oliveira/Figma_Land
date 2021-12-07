@@ -8,6 +8,7 @@ import Contents from './components/contents';
 import Gallery from './components/gallery';
 import Partners from './components/partners';
 import Testimonials from './components/testimonials';
+import Experience from './components/experience';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
     <Gallery />
     <Partners />
     <Testimonials />
+    <Experience />
   </React.StrictMode>,
   document.getElementById('root'),
 );
