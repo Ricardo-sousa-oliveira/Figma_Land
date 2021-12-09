@@ -8,8 +8,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  justify-content: center;
   gap: 20px;
+  justify-content: center;
 `;
 
 export const Title = styled.h2`
@@ -18,6 +18,7 @@ export const Title = styled.h2`
   margin-top: 150px;
   text-align: center;
   width: 290px;
+
   @media ${device.mobileM} {
     width: 180px;
   }
@@ -38,6 +39,7 @@ export const Text = styled.p`
   margin-bottom: 30px;
   text-align: center;
   width: 240px;
+
   @media ${device.mobileS} {
     width: 200px;
   }
@@ -60,14 +62,15 @@ export const Box = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
+
   @media ${device.tablet} {
     flex-direction: row;
   }
 `;
 
 export const BoxLogo = styled.div`
-  display: flex;
   align-items: center;
+  display: flex;
   flex-direction: row;
   gap: 30px;
 `;

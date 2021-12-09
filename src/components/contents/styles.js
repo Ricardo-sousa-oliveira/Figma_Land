@@ -13,9 +13,9 @@ export const Container = styled.div`
 export const Title = styled.h2`
   color: white;
   font-size: 35px;
-  text-align: center;
-  margin-top: 200px;
   margin-bottom: 20px;
+  margin-top: 200px;
+  text-align: center;
 
   @media ${device.mobileM} {
     width: 180px;
@@ -33,10 +33,10 @@ export const Title = styled.h2`
 export const Text = styled.p`
   color: white;
   font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 30px;
   text-align: center;
   width: 240px;
-  margin-bottom: 30px;
-  line-height: 25px;
 
   @media ${device.mobileS} {
     width: 200px;
@@ -47,8 +47,8 @@ export const Text = styled.p`
   }
 
   @media ${device.tablet} {
-    width: 500px;
     margin-bottom: 60px;
+    width: 500px;
   }
 `;
 
@@ -56,6 +56,7 @@ export const BoxCard = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
+
   @media ${device.tablet} {
     flex-direction: row;
     justify-content: space-around;
@@ -70,6 +71,7 @@ export const Card = styled.div`
   flex-direction: column;
   height: 400px;
   width: 240px;
+
   @media ${device.mobileS} {
     height: 500px;
     width: 300px;

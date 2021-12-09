@@ -18,6 +18,7 @@ export const Title = styled.h2`
   margin-top: 150px;
   text-align: center;
   width: 290px;
+
   @media ${device.mobileM} {
     width: 180px;
   }
@@ -38,6 +39,7 @@ export const Text = styled.p`
   margin-bottom: 30px;
   text-align: center;
   width: 240px;
+
   @media ${device.mobileS} {
     width: 200px;
   }
@@ -56,6 +58,7 @@ export const Boximg = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+
   @media ${device.tablet} {
     display: flex;
     flex-direction: row;

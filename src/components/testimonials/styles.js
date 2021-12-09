@@ -18,6 +18,7 @@ export const Title = styled.h2`
   margin-top: 150px;
   text-align: center;
   width: 290px;
+
   @media ${device.mobileM} {
     width: 180px;
   }
@@ -38,9 +39,10 @@ export const Text = styled.p`
   margin-bottom: 30px;
   margin-left: 20px;
   width: 200px;
+
   @media ${device.mobileS} {
-    margin-left: 25px;
     font-size: 16px;
+    margin-left: 25px;
   }
 
   @media ${device.tablet} {
@@ -50,24 +52,26 @@ export const Text = styled.p`
 
 export const Box = styled.div`
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   flex: 2 2 200px;
-  flex-direction: column;
   gap: 20px;
+
   @media ${device.tablet} {
-    flex-direction: row;
     display: grid;
+    flex-direction: row;
     grid-template-columns: repeat(2, 1fr);
   }
 `;
 
 export const BoxComments = styled.div`
+  border-radius: 10px;
+  border: solid 1px white;
   display: flex;
   flex-direction: column;
-  border: solid 1px white;
-  border-radius: 10px;
-  width: 250px;
   gap: 30px;
+  width: 250px;
+
   @media ${device.mobileS} {
     width: 300px;
   }
@@ -78,17 +82,17 @@ export const BoxComments = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 40px;
   margin: 0px 15px 0px 20px;
+  width: 40px;
 `;
 
 export const TitleProfile = styled.h3`
-  font-size: 20px;
   color: white;
+  font-size: 20px;
 `;
 
 export const BoxProfile = styled.div`
-  margin-top: 30px;
-  display: flex;
   align-items: center;
+  display: flex;
+  margin-top: 30px;
 `;

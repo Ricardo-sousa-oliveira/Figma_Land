@@ -17,6 +17,7 @@ export const Title = styled.h2`
   margin-bottom: 30px;
   text-align: center;
   width: 290px;
+
   @media ${device.mobileM} {
     width: 180px;
   }
@@ -37,6 +38,7 @@ export const Text = styled.p`
   margin-bottom: 30px;
   text-align: center;
   width: 290px;
+
   @media ${device.mobileS} {
     width: 200px;
   }
@@ -56,6 +58,7 @@ export const Box = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   @media ${device.tablet} {
     flex-direction: row;
   }
@@ -64,6 +67,7 @@ export const Box = styled.div`
 export const Img = styled.img`
   margin-bottom: 50px;
   width: 150px;
+
   @media ${device.mobileS} {
     width: 200px;
   }
@@ -105,6 +109,7 @@ export const TextIformation = styled.p`
   margin-bottom: 35px;
   text-align: left;
   width: 180px;
+
   @media ${device.tablet} {
     margin-bottom: 20px;
   }

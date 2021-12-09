@@ -15,6 +15,7 @@ export const Container = styled.div`
 export const BoxNav = styled.div`
   display: flex;
   justify-content: space-between;
+
   @media ${device.mobileL} {
     display: flex;
     justify-content: space-around;

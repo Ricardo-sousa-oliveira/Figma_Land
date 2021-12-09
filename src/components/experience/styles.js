@@ -10,34 +10,35 @@ export const Container = styled.div`
   font-family: 'Roboto', sans-serif;
   gap: 50px;
   justify-content: center;
+
   @media ${device.tablet} {
     justify-content: flex-start;
   }
 `;
 
 export const BoxExperience = styled.div`
-  margin-top: 150px;
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-top: 150px;
 
   @media ${device.tablet} {
-    border-radius: 30px;
-    background: #343434;
-    flex-direction: row;
-    width: 800px;
     align-items: center;
+    background: #343434;
+    border-radius: 30px;
+    flex-direction: row;
     overflow: hidden;
     padding-top: 30px;
+    width: 800px;
   }
 `;
 
 export const Box = styled.div`
-  gap: 30px;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 30px;
 
   @media ${device.tablet} {
     align-items: baseline;

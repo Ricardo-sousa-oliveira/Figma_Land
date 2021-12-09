@@ -18,6 +18,7 @@ export const Title = styled.h1`
   margin-top: 60px;
   text-align: center;
   width: 190px;
+
   @media ${device.mobileM} {
     font-size: 40px;
     width: 200px;
@@ -39,6 +40,7 @@ export const Text = styled.p`
   margin-bottom: 30px;
   text-align: center;
   width: 240px;
+
   @media ${device.mobileS} {
     width: 200px;
   }
@@ -56,6 +58,7 @@ export const BoxBtn = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
+
   @media ${device.tablet} {
     align-items: baseline;
     flex-direction: row;
@@ -68,6 +71,7 @@ export const BtnTryForFree = styled.a`
   color: white;
   margin-bottom: 15px;
   padding: 10px 20px 10px 20px;
+
   @media ${device.tablet} {
     margin-right: 20px;
   }
