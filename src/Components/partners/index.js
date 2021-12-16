@@ -1,10 +1,4 @@
 import React from 'react';
-import LogoAppleStore from '../../img/logo_apple-app-store.png';
-import LogoApiary from '../../img/logo_apiary.png';
-import LogoAndroid from '../../img/logo_android-icon.png';
-import LogoBasecamp from '../../img/logo_basecamp.png';
-import LogoAirbnb from '../../img/logo_airbnb.png';
-import LogoIBM from '../../img/logo_ibm.png';
 import { Container, Title, Text, Img, Box, BoxLogo, Btn } from './styles';
 
 function partners() {
@@ -23,24 +17,24 @@ function partners() {
         <Box>
           <BoxLogo>
             <div>
-              <Img src={LogoAppleStore} alt="LogoAppleStore" />
+              <Img src="/img/logo_apple-app-store.png" alt="LogoAppleStore" />
             </div>
             <div>
-              <Img src={LogoApiary} alt="LogoApiary" />
+              <Img src="/img/logo_apiary.png" alt="LogoApiary" />
             </div>
             <div>
-              <Img src={LogoAndroid} alt="LogoAndroid" />
+              <Img src="/img/logo_android-icon.png" alt="LogoAndroid" />
             </div>
           </BoxLogo>
           <BoxLogo>
             <div>
-              <Img src={LogoBasecamp} alt="LogoBasecamp" />
+              <Img src="/img/logo_basecamp.png" alt="LogoBasecamp" />
             </div>
             <div>
-              <Img src={LogoAirbnb} alt="LogoAirbnb" />
+              <Img src="/img/logo_airbnb.png" alt="LogoAirbnb" />
             </div>
             <div>
-              <Img src={LogoIBM} alt="LogoIBM" />
+              <Img src="/img/logo_ibm.png" alt="LogoIBM" />
             </div>
           </BoxLogo>
         </Box>

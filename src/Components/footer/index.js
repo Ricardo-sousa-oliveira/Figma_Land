@@ -1,9 +1,4 @@
 import React from 'react';
-import ImgMap from '../../img/img_map.png';
-import ImgPhone from '../../img/img_phone-android.png';
-import LogoTwitter from '../../img/logo_twitter.png';
-import LogoFacebook from '../../img/logo_facebook.png';
-import LogoLinkedin from '../../img/logo_linkedin.png';
 import {
   Container,
   BoxFooter,
@@ -45,17 +40,17 @@ function footer() {
           </BoxLink>
           <Box>
             <BoxInformation>
-              <Img src={ImgMap} alt="ImgMap" />
+              <Img src="/img/img_map.png" alt="ImgMap" />
               <Text>7480 Mockingbird Hill undefined</Text>
             </BoxInformation>
             <BoxInformation>
-              <Img src={ImgPhone} alt="ImgPhone" />
+              <Img src="/img/img_phone-android.png" alt="ImgPhone" />
               <Text>(239) 555-0108</Text>
             </BoxInformation>
             <BoxSocial>
-              <Img src={LogoTwitter} alt="LogoTwitter" />
-              <Img src={LogoFacebook} alt="LogoFacebook" />
-              <Img src={LogoLinkedin} alt="LogoLinkedin" />
+              <Img src="/img/logo_twitter.png" alt="LogoTwitter" />
+              <Img src="/img/logo_facebook.png" alt="LogoFacebook" />
+              <Img src="/img/logo_linkedin.png" alt="LogoLinkedin" />
             </BoxSocial>
           </Box>
         </BoxFooter>

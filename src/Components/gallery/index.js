@@ -1,9 +1,5 @@
 import React from 'react';
 import { Container, Title, Text, Img, Boximg, Btn } from './styles';
-import ImgDrone from '../../img/img_drone.png';
-import ImgHeadset from '../../img/img_headset.png';
-import ImgTyping from '../../img/img_typing man.png';
-import ImgNotboock from '../../img/img_notboock.png';
 
 function gallery() {
   return (
@@ -20,16 +16,16 @@ function gallery() {
         </div>
         <Boximg>
           <div>
-            <Img src={ImgDrone} alt="ImgDrone" />
+            <Img src="/img/img_drone.png" alt="ImgDrone" />
           </div>
           <div>
-            <Img src={ImgHeadset} alt="ImgHeadset" />
+            <Img src="/img/img_headset.png" alt="ImgHeadset" />
           </div>
           <div>
-            <Img src={ImgTyping} alt="ImgTyping" />
+            <Img src="/img/img_typing man.png" alt="ImgTyping" />
           </div>
           <div>
-            <Img src={ImgNotboock} alt="ImgDImgNotboockrone" />
+            <Img src="/img/img_notboock.png" alt="ImgDImgNotboockrone" />
           </div>
         </Boximg>
         <Btn type="button">See more</Btn>

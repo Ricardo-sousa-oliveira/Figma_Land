@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 import { device } from '../../tokens/screen';
+import { colors, fontFamilies, fontSizes } from '../../tokens';
 
 export const Container = styled.div`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
   align-items: center;
-  background: #181818;
+  background: ${colors.black};
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: ${fontFamilies.primary};
 `;
 
 export const BoxFooter = styled.div`
@@ -31,12 +31,12 @@ export const BoxLink = styled.div`
 `;
 
 export const Link = styled.a`
-  color: white;
+  color: ${colors.white};
 `;
 
 export const Title = styled.h3`
-  color: white;
-  font-size: 20px;
+  color: ${colors.white};
+  font-size: ${fontSizes.xlarge}px;
 `;
 
 export const BoxInformation = styled.div`
@@ -59,7 +59,7 @@ export const BoxSocial = styled.div`
 `;
 
 export const Text = styled.p`
-  color: white;
+  color: ${colors.white};
 `;
 
 export const Img = styled.img`

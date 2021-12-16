@@ -9,10 +9,6 @@ import {
   BoxProfile,
   TitleProfile,
 } from './styles';
-import ComentWade from '../../img/coment_wade.png';
-import ComentPhilip from '../../img/coment_philip.png';
-import ComentArthur from '../../img/coment_arthur.png';
-import ComentEgina from '../../img/coment_egina.png';
 
 function testimonials() {
   return (
@@ -25,7 +21,7 @@ function testimonials() {
           <BoxComments>
             <BoxProfile>
               <div>
-                <Img src={ComentWade} alt="ComentWade" />
+                <Img src="/img/coment_wade.png" alt="ComentWade" />
               </div>
               <div>
                 <TitleProfile>Wade Steward</TitleProfile>
@@ -45,7 +41,7 @@ function testimonials() {
           <BoxComments>
             <BoxProfile>
               <div>
-                <Img src={ComentPhilip} alt="ComentPhilip" />
+                <Img src="/img/coment_philip.png" alt="ComentPhilip" />
               </div>
               <div>
                 <TitleProfile>Wade Steward</TitleProfile>
@@ -65,7 +61,7 @@ function testimonials() {
           <BoxComments>
             <BoxProfile>
               <div>
-                <Img src={ComentArthur} alt="ComentArthur" />
+                <Img src="/img/coment_arthur.png" alt="ComentArthur" />
               </div>
               <div>
                 <TitleProfile>Wade Steward</TitleProfile>
@@ -85,7 +81,7 @@ function testimonials() {
           <BoxComments>
             <BoxProfile>
               <div>
-                <Img src={ComentEgina} alt="ComentEgina" />
+                <Img src="/img/coment_egina.png" alt="ComentEgina" />
               </div>
               <div>
                 <TitleProfile>Wade Steward</TitleProfile>

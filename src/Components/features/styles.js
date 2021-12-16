@@ -1,19 +1,19 @@
 import styled from 'styled-components';
 import { device } from '../../tokens/screen';
+import { colors, fontFamilies, fontSizes } from '../../tokens';
 
 export const Container = styled.div`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
   align-items: center;
-  background: #181818;
+  background: ${colors.black};
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: ${fontFamilies.primary};
   justify-content: center;
 `;
 
 export const Title = styled.h2`
-  color: white;
-  font-size: 35px;
+  color: ${colors.white};
+  font-size: ${fontSizes.xxlarge};
   margin-bottom: 30px;
   text-align: center;
   width: 290px;
@@ -32,8 +32,8 @@ export const Title = styled.h2`
 `;
 
 export const Text = styled.p`
-  color: white;
-  font-size: 16px;
+  color: ${colors.white};
+  font-size: ${fontSizes.medium}px;
   line-height: 25px;
   margin-bottom: 30px;
   text-align: center;
@@ -92,8 +92,8 @@ export const BoxTitleInforation = styled.div`
 `;
 
 export const TitleInforation = styled.h3`
-  color: white;
-  font-size: 20px;
+  color: ${colors.white};
+  font-size: ${fontSizes.xlarge}px;
   width: 170px;
 `;
 
@@ -103,8 +103,8 @@ export const IconFeatures = styled.img`
 `;
 
 export const TextIformation = styled.p`
-  color: white;
-  font-size: 14px;
+  color: ${colors.white};
+  font-size: ${fontSizes.small}px;
   line-height: 25px;
   margin-bottom: 35px;
   text-align: left;

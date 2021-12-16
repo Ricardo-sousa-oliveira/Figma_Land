@@ -1,8 +1,4 @@
 import React from 'react';
-import ImgFeatures from '../../img/img_features.png';
-import IconRestaurant from '../../img/icon_round-restaurant-menu.png';
-import IconAlien from '../../img/icon_mdi_alien-outline.png';
-import Iconinclusive from '../../img/icon_mdi_all-inclusive.png';
 
 import {
   Container,
@@ -32,11 +28,14 @@ function features() {
           </div>
           <Box>
             <div>
-              <Img src={ImgFeatures} alt="ImgFeatures" />
+              <Img src="/img/img_features.png" alt="ImgFeatures" />
             </div>
             <div>
               <BoxTitleInforation>
-                <IconFeatures src={IconRestaurant} alt="IconRestaurant" />
+                <IconFeatures
+                  src="/img/icon_round-restaurant-menu.png"
+                  alt="IconRestaurant"
+                />
                 <TitleInforation>A single source of truth</TitleInforation>
               </BoxTitleInforation>
               <TextIformation>
@@ -44,7 +43,10 @@ function features() {
                 calculate useful insights
               </TextIformation>
               <BoxTitleInforation>
-                <IconFeatures src={IconAlien} alt="IconAlien" />
+                <IconFeatures
+                  src="/img/icon_mdi_alien-outline.png"
+                  alt="IconAlien"
+                />
                 <TitleInforation>Intuitive interface</TitleInforation>
               </BoxTitleInforation>
               <TextIformation>
@@ -52,7 +54,10 @@ function features() {
                 calculate useful insights
               </TextIformation>
               <BoxTitleInforation>
-                <IconFeatures src={Iconinclusive} alt="Iconinclusive" />
+                <IconFeatures
+                  src="/img/icon_mdi_all-inclusive.png"
+                  alt="Iconinclusive"
+                />
                 <TitleInforation>Or with rules</TitleInforation>
               </BoxTitleInforation>
               <TextIformation>

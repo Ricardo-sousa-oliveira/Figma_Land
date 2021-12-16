@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../../img/logo_dark.png';
 import {
   LogoImage,
   Container,
@@ -16,7 +15,7 @@ function nav() {
         <Container>
           <BoxNav>
             <BoxLogo>
-              <LogoImage src={Logo} alt="Logo" />
+              <LogoImage src="/img/logo_dark.png" alt="Logo" />
             </BoxLogo>
             <BoxBtn>
               <BtnNav type="button">Login</BtnNav>

@@ -1,9 +1,11 @@
+const black = '#181818';
 const white = '#FFFFFF';
-const dark = '#000000';
+const primary = '#4452fe';
 
 const colors = {
+  black,
   white,
-  dark,
+  primary,
 };
 
 export default colors;

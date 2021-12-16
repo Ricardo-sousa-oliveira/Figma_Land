@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 import { device } from '../../tokens/screen';
+import { colors, fontFamilies, fontSizes } from '../../tokens';
 
 export const Container = styled.div`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
   align-items: center;
-  background: #181818;
+  background: ${colors.black};
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: ${fontFamilies.primary};
 `;
 
 export const Title = styled.h2`
-  color: white;
-  font-size: 35px;
+  color: ${colors.white};
+  font-size: ${fontSizes.xxlarge}px;
   margin-bottom: 20px;
   margin-top: 200px;
   text-align: center;
@@ -31,8 +31,8 @@ export const Title = styled.h2`
 `;
 
 export const Text = styled.p`
-  color: white;
-  font-size: 16px;
+  color: ${colors.white};
+  font-size: ${fontSizes.medium}px;
   line-height: 25px;
   margin-bottom: 30px;
   text-align: center;
@@ -84,13 +84,13 @@ export const Card = styled.div`
 `;
 
 export const TitleCard = styled.h3`
-  font-size: 20px;
+  font-size: ${fontSizes.medium}px;
   margin-top: 40px;
   text-align: center;
 `;
 
 export const TextCard = styled.h3`
-  font-size: 16px;
+  font-size: ${fontSizes.medium}px;
   line-height: 25px;
   margin: 40px 0px;
   text-align: center;
@@ -98,8 +98,8 @@ export const TextCard = styled.h3`
 `;
 
 export const BtnCard = styled.a`
-  background: #4452fe;
-  color: white;
+  background: ${colors.primary};
+  color: ${colors.white};
   margin-bottom: 10px;
   padding: 10px 20px 10px 20px;
 `;

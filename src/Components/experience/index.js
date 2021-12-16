@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Title, BoxExperience, Box, Btn, Img } from './styles';
-import ImgExperience from '../../img/img_experience.png';
 
 function experience() {
   return (
@@ -12,7 +11,7 @@ function experience() {
             <Btn>Try For Free</Btn>
           </Box>
           <div>
-            <Img src={ImgExperience} alt="ImgExperience" />
+            <Img src="/img/img_experience.png" alt="ImgExperience" />
           </div>
         </BoxExperience>
       </Container>

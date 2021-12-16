@@ -1,20 +1,20 @@
 import styled from 'styled-components';
 import { device } from '../../tokens/screen';
+import { colors, fontFamilies, fontSizes } from '../../tokens';
 
 export const Container = styled.div`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
   align-items: center;
-  background: #181818;
+  background: ${colors.black};
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: ${fontFamilies.primary};
   gap: 20px;
   justify-content: center;
 `;
 
 export const Title = styled.h2`
-  color: white;
-  font-size: 35px;
+  color: ${colors.white};
+  font-size: ${fontSizes.xxlarge}px;
   margin-top: 150px;
   text-align: center;
   width: 290px;
@@ -33,7 +33,7 @@ export const Title = styled.h2`
 `;
 
 export const Text = styled.p`
-  color: white;
+  color: ${colors.white};
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 30px;
@@ -73,6 +73,6 @@ export const Img = styled.img`
 export const Btn = styled.a`
   background: #181818;
   border: 1px solid white;
-  color: white;
+  color: ${colors.white};
   padding: 10px 20px 10px 20px;
 `;

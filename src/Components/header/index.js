@@ -1,5 +1,4 @@
 import React from 'react';
-import ImgHeader from '../../img/img_header.png';
 import {
   Container,
   Title,
@@ -28,7 +27,7 @@ function header() {
           <BtnLearnMore>Learn More</BtnLearnMore>
         </BoxBtn>
         <div>
-          <Img src={ImgHeader} alt="ImgHeader" />
+          <Img src="/img/img_header.png" alt="ImgHeader" />
         </div>
       </Container>
     </section>

@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 import { device } from '../../tokens/screen';
+import { colors, fontFamilies, fontSizes } from '../../tokens';
 
 export const Container = styled.div`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
   align-items: center;
-  background: #181818;
+  background: ${colors.black};
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: ${fontFamilies.primary};
   gap: 50px;
   justify-content: center;
 
@@ -25,7 +25,7 @@ export const BoxExperience = styled.div`
 
   @media ${device.tablet} {
     align-items: center;
-    background: #343434;
+    background: ${colors.black};
     border-radius: 30px;
     flex-direction: row;
     overflow: hidden;
@@ -47,8 +47,8 @@ export const Box = styled.div`
 `;
 
 export const Title = styled.h2`
-  color: white;
-  font-size: 35px;
+  color: ${colors.white};
+  font-size: ${fontSizes.xxlarge}px;
   text-align: center;
   width: 280px;
 
@@ -66,8 +66,8 @@ export const Title = styled.h2`
 `;
 
 export const Btn = styled.a`
-  background: #4452fe;
-  color: white;
+  background: ${colors.primary};
+  color: ${colors.white};
   padding: 10px 30px 10px 30px;
 `;
 

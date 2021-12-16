@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { device } from '../../tokens/screen';
+import { colors, fontFamilies } from '../../tokens';
 
 export const LogoImage = styled.img`
   height: 50px;
@@ -9,7 +10,8 @@ export const LogoImage = styled.img`
 `;
 
 export const Container = styled.div`
-  background: #181818;
+  background: ${colors.black};
+  font-family: ${fontFamilies.primary};
 `;
 
 export const BoxNav = styled.div`
@@ -34,8 +36,8 @@ export const BoxBtn = styled.div`
 `;
 
 export const BtnNav = styled.button`
-  background: #181818;
-  border: 1px solid white;
+  background: ${colors.black};
+  border: 1px solid ${colors.white};
   color: white;
   height: 35px;
   width: 90px;

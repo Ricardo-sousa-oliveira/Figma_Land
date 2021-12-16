@@ -1,6 +1,4 @@
 import React from 'react';
-import ImgMacbock from '../../img/img_macbook_pro.png';
-import ImgBoards from '../../img/img_boards_notifications.png';
 
 import {
   Container,
@@ -35,7 +33,7 @@ function content() {
               helps you identify .
             </TextCard>
             <BtnCard>Sign Up</BtnCard>
-            <ImgCard src={ImgMacbock} alt="ImgMacbock" />
+            <ImgCard src="/img/img_macbook_pro.png" alt="ImgMacbock" />
           </Card>
           <Card>
             <TitleCard>Work</TitleCard>
@@ -44,7 +42,7 @@ function content() {
               helps you identify .
             </TextCard>
             <BtnCard>Try For Free</BtnCard>
-            <ImgCard src={ImgBoards} alt="ImgBoards" />
+            <ImgCard src="/img/img_boards_notifications.png" alt="ImgBoards" />
           </Card>
         </BoxCard>
       </Container>

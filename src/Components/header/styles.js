@@ -1,26 +1,26 @@
 import styled from 'styled-components';
 import { device } from '../../tokens/screen';
+import { colors, fontFamilies, fontSizes } from '../../tokens';
 
 export const Container = styled.div`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
   align-items: center;
-  background: #181818;
+  background: ${colors.black};
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: ${fontFamilies.primary};
   justify-content: center;
 `;
 
 export const Title = styled.h1`
   color: white;
-  font-size: 35px;
+  font-size: ${fontSizes.xxlarge}px;
   margin-bottom: 60px;
   margin-top: 60px;
   text-align: center;
   width: 190px;
 
   @media ${device.mobileM} {
-    font-size: 40px;
+    font-size: ${fontSizes.xxxlarge}px;
     width: 200px;
   }
 
@@ -34,8 +34,8 @@ export const Title = styled.h1`
 `;
 
 export const Text = styled.p`
-  color: white;
-  font-size: 16px;
+  color: ${colors.white};
+  font-size: ${fontSizes.medium}px;
   line-height: 25px;
   margin-bottom: 30px;
   text-align: center;
@@ -67,8 +67,8 @@ export const BoxBtn = styled.div`
 `;
 
 export const BtnTryForFree = styled.a`
-  background: #4452fe;
-  color: white;
+  background: ${colors.primary};
+  color: ${colors.white};
   margin-bottom: 15px;
   padding: 10px 20px 10px 20px;
 
@@ -79,8 +79,8 @@ export const BtnTryForFree = styled.a`
 
 export const BtnLearnMore = styled.a`
   border: 1px solid white;
-  color: white;
-  font-size: 15px;
+  color: ${colors.white};
+  font-size: ${fontSizes.medium}px;
   margin-bottom: 40px;
   padding: 10px 20px 10px 20px;
 `;
